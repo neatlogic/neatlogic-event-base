@@ -1,4 +1,4 @@
-package codedriver.framework.event.exception.core;
+package neatlogic.framework.event.exception.core;
 
 public class EventNotFoundException extends EventRuntimeException {
 

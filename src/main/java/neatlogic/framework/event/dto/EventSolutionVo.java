@@ -1,9 +1,9 @@
-package codedriver.framework.event.dto;
+package neatlogic.framework.event.dto;
 
-import codedriver.framework.common.constvalue.ApiParamType;
-import codedriver.framework.common.dto.BaseEditorVo;
-import codedriver.framework.restful.annotation.EntityField;
-import codedriver.framework.util.SnowflakeUtil;
+import neatlogic.framework.common.constvalue.ApiParamType;
+import neatlogic.framework.common.dto.BaseEditorVo;
+import neatlogic.framework.restful.annotation.EntityField;
+import neatlogic.framework.util.SnowflakeUtil;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package codedriver.framework.event.exception.core;
+package neatlogic.framework.event.exception.core;
 
-import codedriver.framework.exception.core.ApiException;
+import neatlogic.framework.exception.core.ApiException;
 
 public class EventException extends ApiException {
 

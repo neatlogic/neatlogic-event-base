@@ -1,6 +1,6 @@
-package codedriver.framework.event.exception.core;
+package neatlogic.framework.event.exception.core;
 
-import codedriver.framework.exception.core.ApiRuntimeException;
+import neatlogic.framework.exception.core.ApiRuntimeException;
 
 public class EventRuntimeException extends ApiRuntimeException {
 

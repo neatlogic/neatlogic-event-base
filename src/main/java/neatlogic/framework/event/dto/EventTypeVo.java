@@ -1,11 +1,11 @@
-package codedriver.framework.event.dto;
+package neatlogic.framework.event.dto;
 
-import codedriver.framework.common.constvalue.ApiParamType;
-import codedriver.framework.common.constvalue.GroupSearch;
-import codedriver.framework.common.dto.BasePageVo;
-import codedriver.framework.dto.AuthorityVo;
-import codedriver.framework.restful.annotation.EntityField;
-import codedriver.framework.util.SnowflakeUtil;
+import neatlogic.framework.common.constvalue.ApiParamType;
+import neatlogic.framework.common.constvalue.GroupSearch;
+import neatlogic.framework.common.dto.BasePageVo;
+import neatlogic.framework.dto.AuthorityVo;
+import neatlogic.framework.restful.annotation.EntityField;
+import neatlogic.framework.util.SnowflakeUtil;
 import com.alibaba.fastjson.annotation.JSONField;
 import org.apache.commons.collections4.CollectionUtils;
 

@@ -1,7 +1,7 @@
-package codedriver.framework.event.auth.label;
+package neatlogic.framework.event.auth.label;
 
-import codedriver.framework.auth.core.AuthBase;
-import codedriver.framework.process.auth.PROCESS_BASE;
+import neatlogic.framework.auth.core.AuthBase;
+import neatlogic.framework.process.auth.PROCESS_BASE;
 
 import java.util.Collections;
 import java.util.List;

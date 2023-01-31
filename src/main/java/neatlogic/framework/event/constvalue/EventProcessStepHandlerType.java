@@ -3,9 +3,9 @@
  * 本内容仅限于深圳市赞悦科技有限公司内部传阅，禁止外泄以及用于其他的商业项目。
  */
 
-package codedriver.framework.event.constvalue;
+package neatlogic.framework.event.constvalue;
 
-import codedriver.framework.process.stephandler.core.IProcessStepHandlerType;
+import neatlogic.framework.process.stephandler.core.IProcessStepHandlerType;
 
 public enum EventProcessStepHandlerType implements IProcessStepHandlerType {
     EVENT("event", "process", "事件");

@@ -3,9 +3,9 @@
  * 本内容仅限于深圳市赞悦科技有限公司内部传阅，禁止外泄以及用于其他的商业项目。
  */
 
-package codedriver.framework.event.constvalue;
+package neatlogic.framework.event.constvalue;
 
-import codedriver.framework.process.audithandler.core.IProcessTaskAuditDetailType;
+import neatlogic.framework.process.audithandler.core.IProcessTaskAuditDetailType;
 
 public enum EventAuditDetailType implements IProcessTaskAuditDetailType {
     EVENTINFO("eventinfo", "事件", "event", "oldEvent", 16, false),
