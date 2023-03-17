@@ -17,10 +17,11 @@ limitations under the License.
 package neatlogic.framework.event.constvalue;
 
 import neatlogic.framework.process.audithandler.core.IProcessTaskAuditDetailType;
+import neatlogic.framework.util.I18nUtils;
 
 public enum EventAuditDetailType implements IProcessTaskAuditDetailType {
-    EVENTINFO("eventinfo", "事件", "event", "oldEvent", 16, false),
-    TASK("task", "任务", "task", "oldTask", 18, false)
+    EVENTINFO("eventinfo", "enum.event.eventauditdetailtype.eventinfo", "event", "oldEvent", 16, false),
+    TASK("task", "enum.event.eventauditdetailtype.task", "task", "oldTask", 18, false)
     ;
     
     private EventAuditDetailType(String _value, String _text, String _paramName, String _oldDataParamName, int _sort, boolean _needCompression) {
@@ -45,7 +46,7 @@ public enum EventAuditDetailType implements IProcessTaskAuditDetailType {
 
     @Override
     public String getText() {
-        return text;
+        return I18nUtils.getMessage(text);
     }
 
     @Override
