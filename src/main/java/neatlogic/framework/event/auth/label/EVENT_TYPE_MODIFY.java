@@ -10,12 +10,12 @@ public class EVENT_TYPE_MODIFY extends AuthBase {
 
 	@Override
 	public String getAuthDisplayName() {
-		return "auth.process.eventtypemodify.name";
+		return "事件类型管理权限";
 	}
 
 	@Override
 	public String getAuthIntroduction() {
-		return "auth.process.eventtypemodify.introduction";
+		return "对事件类型进行添加、修改和删除";
 	}
 
 	@Override

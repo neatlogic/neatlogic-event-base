@@ -10,12 +10,12 @@ public class EVENT_SOLUTION_MODIFY extends AuthBase {
 
 	@Override
 	public String getAuthDisplayName() {
-		return "auth.process.eventsolutionmodify.name";
+		return "解决方案管理权限";
 	}
 
 	@Override
 	public String getAuthIntroduction() {
-		return "auth.process.eventsolutionmodify.introduction";
+		return "对解决方案进行添加、修改和删除";
 	}
 
 	@Override
