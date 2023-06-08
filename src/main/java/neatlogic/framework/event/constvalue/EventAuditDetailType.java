@@ -17,7 +17,7 @@ limitations under the License.
 package neatlogic.framework.event.constvalue;
 
 import neatlogic.framework.process.audithandler.core.IProcessTaskAuditDetailType;
-import neatlogic.framework.util.I18nUtils;
+import neatlogic.framework.util.$;
 
 public enum EventAuditDetailType implements IProcessTaskAuditDetailType {
     EVENTINFO("eventinfo", "事件", "event", "oldEvent", 16, false),
@@ -46,7 +46,7 @@ public enum EventAuditDetailType implements IProcessTaskAuditDetailType {
 
     @Override
     public String getText() {
-        return I18nUtils.getMessage(text);
+        return $.t(text);
     }
 
     @Override
