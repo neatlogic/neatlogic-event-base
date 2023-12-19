@@ -17,15 +17,15 @@ limitations under the License.
 package neatlogic.framework.event.constvalue;
 
 import neatlogic.framework.process.stephandler.core.IProcessStepHandlerType;
-import neatlogic.framework.util.I18n;
+import neatlogic.framework.util.$;
 
 public enum EventProcessStepHandlerType implements IProcessStepHandlerType {
-    EVENT("event", "process", new I18n("事件"));
+    EVENT("event", "process", "common.event");
     private String handler;
-    private I18n name;
+    private String name;
     private String type;
 
-    EventProcessStepHandlerType(String handler, String type, I18n name) {
+    EventProcessStepHandlerType(String handler, String type, String name) {
         this.handler = handler;
         this.name = name;
         this.type = type;
@@ -38,7 +38,7 @@ public enum EventProcessStepHandlerType implements IProcessStepHandlerType {
 
     @Override
     public String getName() {
-        return name.toString();
+        return $.t(name);
     }
 
     @Override
