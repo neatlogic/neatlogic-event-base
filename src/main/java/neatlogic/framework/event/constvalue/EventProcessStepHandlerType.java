@@ -20,9 +20,9 @@ import neatlogic.framework.util.$;
 
 public enum EventProcessStepHandlerType implements IProcessStepHandlerType {
     EVENT("event", "process", "common.event");
-    private String handler;
-    private String name;
-    private String type;
+    private final String handler;
+    private final String name;
+    private final String type;
 
     EventProcessStepHandlerType(String handler, String type, String name) {
         this.handler = handler;
