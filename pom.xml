@@ -9,7 +9,7 @@
         <relativePath>../neatlogic-parent</relativePath>
     </parent>
     <artifactId>neatlogic-event-base</artifactId>
-    <version>4.0.7</version>
+    <version>4.1.0</version>
     <build>
         <resources>
             <resource>
